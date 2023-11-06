@@ -1,0 +1,22 @@
+.login-logo {
+  max-width: 200px; /* Increase the max-width for a bigger logo */
+  margin: 0 auto; /* Center the logo horizontally */
+  padding: 20px; /* Add some padding to give it space */
+}
+
+.login-logo img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.login-logo:hover img {
+  transform: scale(1.1); /* Enlarge the image when hovered */
+}
+
+.login-button {
+  width: 100%;
+  font-family: 'Pacifico', cursive;
+  margin: 10px 0; /* Reduce top and bottom margins */
+  padding: 10px;
+}
